@@ -1,0 +1,20 @@
+<!-- <button *ngIf="!addedToBag" class="btn btn-primary"
+ (click)="onCreateItem()">{{buttonStatus}}</button>
+ <button *ngIf="addedToBag" class="btn btn-primary"
+ (click)="onDeleteItem()">{{buttonStatus}}</button>
+<p *ngIf="addedToBag; else noAdded"> Items added to bag </p>
+<ng-template #noAdded>
+  <p [ngClass] ="{remove: addedToBag === false}">Items removed from bag</p>
+</ng-template> -->
+
+<div class="row">
+  <div class="col-md-5">
+    <app-product-list></app-product-list>
+  </div>
+  <div class="col-md-7">
+    <app-product-detail *ngIf="selectedProduct; else infoText" [product]="selectedProduct"></app-product-detail>
+    <ng-template #infoText>
+      <p>Please select a product!</p>
+    </ng-template>
+  </div>
+</div>
