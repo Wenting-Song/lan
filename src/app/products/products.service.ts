@@ -12,7 +12,7 @@ export class ProductService {
          'https://res.lancome.com.cn/resources/2018/5/14/1526270256341804_258X258.jpg'),
         new Product('Absolue Premium Yeux SPF15 兰蔻菁纯卓颜眼霜 (6g)', 154, '特别设计的眼霜，富含卓颜分子',
          'https://res.lancome.com.cn/resources/2018/6/5/15281869363711616_258X258.jpg'),
-        new Product('Energie de vie Foam Cleanser SPF15 兰蔻清滢嫩肤洁面乳 (50ml)', 48, '洗面奶',
+        new Product('Energie de vie Foam Cleanser SPF15 兰蔻清滢嫩肤洁面乳 (50ml)', 98, '洗面奶',
          'https://res.lancome.com.cn/resources/2018/6/5/15281869363711616_258X258.jpg'),
         new Product('兰蔻水光润面霜 (50ml)', 346, '盈润美肌',
          // tslint:disable-next-line:max-line-length
