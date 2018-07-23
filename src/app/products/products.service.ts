@@ -14,7 +14,7 @@ export class ProductService {
          'https://res.lancome.com.cn/resources/2018/6/5/15281869363711616_258X258.jpg'),
         new Product('Energie de vie Foam Cleanser SPF15 兰蔻清滢嫩肤洁面乳 (50ml)', 48, '洗面奶',
          'https://res.lancome.com.cn/resources/2018/6/5/15281869363711616_258X258.jpg'),
-        new Product('兰蔻水光润面霜 (50ml)', 346, '清爽不黏腻，盈润美肌',
+        new Product('兰蔻水光润面霜 (50ml)', 346, '盈润美肌',
          // tslint:disable-next-line:max-line-length
          'https://www.lancome-usa.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-lancome-us-master-catalog/default/dwdd2f1150/Products/edv/3614271304698_EnergieDeVie_DayCream50mL_1000x1000.jpg?sw=750&sh=750&sm=fit'),
          new Product('兰蔻新梦魅旋密睫毛膏 (4ml)', 150, '采用专利睫毛提升刷，使睫毛根部及梢部即刻立体旋密',
