@@ -14,7 +14,7 @@
   <div class="col-md-7">
     <app-product-detail *ngIf="selectedProduct; else infoText" [product]="selectedProduct"></app-product-detail>
     <ng-template #infoText>
-      <p>Please select a product!</p>
+      <p>点击图片看大图</p>
     </ng-template>
   </div>
 </div>
